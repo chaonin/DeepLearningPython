@@ -20,7 +20,7 @@ with gzip.open('mnist.pkl.gz', 'rb') as f:
 img_x = img[i][0][j].reshape(28, 28)
 img_id = img[i][1][j]
 
-print(img_id)
+print('这个数字是：'+str(img_id))
 pylab.imshow(img_x)
 pylab.gray()
 pylab.show()
