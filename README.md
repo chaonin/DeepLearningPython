@@ -12,4 +12,3 @@ In test.py there are examples of networks configurations with proper comments. I
 
 ### License
 Disributed under MIT License. [Link](LICENSE.md).
-
