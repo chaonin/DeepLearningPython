@@ -7,3 +7,4 @@ def resize_image(input_image_path, output_image_path, size):
   
 # 使用函数将图片压缩为28x28像素  
 resize_image('moon.jpeg', 'output_28x28.jpeg', (28, 28))
+
