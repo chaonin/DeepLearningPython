@@ -43,4 +43,3 @@ for i in range(hidden_layer):
 ax.axis('off')
 
 plt.show()
-
