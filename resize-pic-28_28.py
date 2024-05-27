@@ -17,8 +17,8 @@ def convert_to_black_white_then_normalize(image_path, output_path):
         gray_image = image.convert('L')
         # 将图像转换为NumPy数组
         gray_array = np.array(gray_image)
-        # 将像素值从0到255归一化到0到1
-        normalized_array = gray_array / 255.0
+        # 将像素值从0到255归一化到0到1(chaonin:黑色作为背景)
+        normalized_array = 1 - gray_array / 255.0
         # 将归一化的灰度数组转换为图像
         normalized_gray_image = Image.fromarray((normalized_array * 255).astype(np.uint8))
         # 保存图像
