@@ -5,8 +5,8 @@
 import matplotlib.pyplot as plt
 
 # 定义神经网络结构
-input_layer = 7
-hidden_layer = 5
+input_layer = 20
+hidden_layer = 8 
 output_layer = 10
 
 # 计算每层节点之间的垂直间距
